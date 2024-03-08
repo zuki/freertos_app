@@ -10,8 +10,6 @@
 #include "ssd1331.h"
 #include "font.h"
 
-#define WAIT_MS     ( 1000 / portTICK_PERIOD_MS )
-
 // 1行表示の文字列と表示ピクセル: 1行12文字, 1文字8x8ピクセル
 char vbuf[12];
 static uint16_t lpxs[SSD1331_LBUF_LEN];
@@ -151,7 +149,6 @@ static void clear_screen(uint16_t color) {
     sprintf(vbuf, "%s", "           ");
     for (int i = 0; i < SSD1331_WIDTH / 8; i++) {
         write_line(i*8, vbuf, color);
-        //send_data(lpxs, SSD1331_LBUF_LEN);
     }
 }
 
