@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}",
+                "${env:FREERTOS_KERNEL_PATH}/include",
+                "${env:FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/include",
+                "${env:PICO_SDK_PATH}/src/rp2040/hardware_structs",
+                "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs",
+                "${env:PICO_SDK_PATH}/src/common/**",
+                "${env:PICO_SDK_PATH}/src/rp2_common/**",
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "intelliSenseMode": "macos-gcc-arm",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
