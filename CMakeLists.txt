@@ -20,7 +20,7 @@ add_executable(demo
 
 target_include_directories(demo PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
-        /Users/dspace/FreeRTOS/FreeRTOS/Demo/Common/include
+        $ENV{HOME}/FreeRTOS/FreeRTOS/Demo/Common/include
         ${PICO_SDK_PATH}/src/rp2_common/hardware_spi/include
         ${PICO_SDK_PATH}/src/rp2_common/hardware_i2c/include)
 
