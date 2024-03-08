@@ -6,3 +6,7 @@
 3. `Demo/ThirdParty/Community-Supported-Demos/CORTEX_M0+_RP2040/Standard/main_blinky.c`を引用し、不要な部分を削除して現在形に
 
 <video src="running.mov" controls></video>
+
+
+https://github.com/zuki/freertos_app/assets/233833/fc55f445-2f18-43df-9beb-ecd701c26d71
+
